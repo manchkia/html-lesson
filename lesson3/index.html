@@ -6,19 +6,32 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
     <style>
-        .button1 {
-            color: blue;
+        .warnlevels {
+            color: white;
+            text-align: center;
+            font-size: 60px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .warnlevels .level1 {
+            background-color: green;
+            border: 3px solid rgb(2, 206, 2);
+        }
+        .warnlevels .level2 {
+            background-color: red;
+            border: 3px solid rgb(255, 85, 85);
+        }
+        .warnlevels .level3 {
+            background-color: yellow;
+            border: 3px solid orange;
         }
     </style>
 </head>
 <body>
-    <div>
-        <h1>Lesson 3</h1>
-        <p>This is the content of lesson 3.</p>
-    </div>
-    <div>
-        <span class="button1">Click Me1</span>
-        <button>Click Me2</button>
+    <div class="warnlevels">
+        <span class="level1">Level 1</span>
+        <span class="level2">Level 2</span>
+        <span class="level3">Level 3</span>
     </div>
 </body>
 </html>
