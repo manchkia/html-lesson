@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    flex-wrap: wrap;
+    display: flex;
+    border: 5px solid;
+    margin: 5px;
+    padding: 5px;
+    height: 200px;
+}
+
+.flex-item{
+    border: 5px solid;
+    margin: 5px;
+    width: calc(33.33% - 10px);
+    text-align: center;
+    order: 0;
+    flex-grow: 0;
+}
+
+.item1{
+    border: 5px solid;
+    margin: 5px;
+    order: 1;
+    flex-grow: 1;
+}
