@@ -1,0 +1,28 @@
+.chessboard{
+    display: grid;
+    border: 1px solid;
+    width: 500px;
+    height: 500px;
+    grid-template-areas:
+    "A A A A A A A A"
+    "B B B B B B B B"
+    "C C C C C C C C"
+    "D D D D D D D D"
+    "E E E E E E E E"
+    "F F F F F F F F"
+    "G G G G G G G G"
+    "H H H H H H H H"
+    ;
+}
+.item{
+    background-color: blue;
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+}
+.item:nth-child(2n){
+    background-color: green;
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+}
