@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 body{
     background-image: url("../assets/futuger-aero.png");
     min-height: 100vh;
@@ -32,7 +33,7 @@ header .searchbar{
     align-self: stretch;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 5px;
+    margin-left: 20px;
     margin-right: 20px;
     flex-grow: 2;
     background-color: aqua;
@@ -47,4 +48,29 @@ header .user-photo{
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: white;
+}
+
+.container{
+    background-color: lightblue;
+    margin: 10px;
+    border: 3px solid blue;
+    border-radius: 5px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    border: 2px;   
+}
+
+nav a{
+    flex-grow: 1;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: purple;
+    background-color: beige;
+    font-weight: bold;
 }
