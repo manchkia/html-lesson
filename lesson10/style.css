@@ -36,7 +36,7 @@ header .searchbar{
     margin-left: 20px;
     margin-right: 20px;
     flex-grow: 2;
-    background-color: aqua;
+    background-color: beige;
     border-radius: 10px;
     font-size: 20px;
 }
@@ -117,16 +117,17 @@ nav a:hover{
     align-items: center;
 }
 
-.animation-row-1:hover{
-    justify-items: flex-end;
-    transition-property: justify-content;
-    transition-duration: 500ms;
+.animation-row-1:hover .square1{
+    transition-property: left;
+    transition-duration: 300ms;
+    left: 80%;
 }
 
 .square1{
     height: 40px;
     width: 40px;
-    background-color: lightgreen;
+    background-color: beige;
+    margin: 0px 5px;
 }
 
 footer{
