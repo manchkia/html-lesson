@@ -121,7 +121,7 @@ nav a:hover{
 .animation-row-1:hover .square1{
     transition-property: left;
     transition-duration: 300ms;
-    left: 84%;
+    left: 85%;
 }
 
 .square1{
@@ -129,7 +129,6 @@ nav a:hover{
     height: 40px;
     width: 40px;
     background-color: beige;
-    margin: 0px 5px;
     left: 0%;
     transition-property: left;
     transition-duration: 300ms;
