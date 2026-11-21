@@ -1,17 +1,13 @@
-.grid-container {
+.grid-template {
     display: grid;
-    border: 5px solid black;
-    margin: 5px;
-    height: 500px;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: auto;
-    justify-items: center;
-    align-items: center;
+    min-height: 500px;
+    grid-template-areas:
+    "A A A A"
+    "B B B B"
+    ;
 }
 
 .item{
     border: 2px solid black;
     text-align: center;
-    width: 25%;
-    height: 50%;
 }
