@@ -73,4 +73,66 @@ nav a{
     color: purple;
     background-color: beige;
     font-weight: bold;
+    transition-property: background-color;
+    transition-duration: 500ms;
+}
+
+nav a:hover{
+    background-color: aqua;
+    transition-property: background-color;
+    transition-duration: 500ms;
+}
+
+.container1{
+    background-color: lightblue;
+    margin: 10px;
+    border: 3px solid blue;
+    border-radius: 5px;
+    display: flex;
+    min-height: 500px;
+}
+
+.container1 aside{
+    border: 1px solid;
+    flex-grow: 1;
+    margin: 5px;
+    border: 3px solid blue;
+    border-radius: 5px;
+}
+
+.container1 main{
+    border: 1px solid;
+    flex-grow: 3;
+    margin: 5px;
+    border: 3px solid blue;
+    border-radius: 5px;
+}
+
+.animation-row-1{
+    display: flex;
+    border: 3px solid blue;
+    border-radius: 5px;
+    margin: 10px;
+    height: 50px;
+    align-items: center;
+}
+
+.animation-row-1:hover{
+    justify-items: flex-end;
+    transition-property: justify-content;
+    transition-duration: 500ms;
+}
+
+.square1{
+    height: 40px;
+    width: 40px;
+    background-color: lightgreen;
+}
+
+footer{
+    margin: 10px;
+    border: 3px solid blue;
+    border-radius: 5px;
+    display: flex;
+    background-color: lightblue;
 }
