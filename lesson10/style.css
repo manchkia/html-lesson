@@ -23,7 +23,9 @@ header{
 
     align-items: center;
 }
+
 header .logo{
+    padding-left: 10px;
     color: white;
     text-transform: uppercase;
     align-self: center;
