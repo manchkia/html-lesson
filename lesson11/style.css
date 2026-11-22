@@ -4,36 +4,33 @@
     box-sizing: border-box;
 }
 
-@keyframes spin{
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
 .loader{
     width: 40px;
     height: 40px;
     border: 4px solid red;
     border-radius: 20%;
-    animation: color 1s linear infinite;
+    animation: move 1s linear infinite;
 }
 
-@keyframes color{
+@keyframes move{
     0%{
         backgound-colour: blue;
+        transform: translate(0, 0);
     }
     25%{
         background-color: red;
+        transform: translate(100px, 0);
     }
     50%{
         background-color: green;
+        transform: translate(100px, 100px);
     }
     75%{
         background-color: yellow;
+        transform: translate(0, 100px);
     }
     100%{
         background-color: orange;
+        transform: translate(0, 0);
     }
 }
